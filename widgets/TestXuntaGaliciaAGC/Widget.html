@@ -1,0 +1,49 @@
+<div>
+    <h3>Selecciona la Provincia</h3>
+    <div>
+        <select
+            data-dojo-attach-point="selectProvincia"
+            data-dojo-attach-event="onChange:cargaConcellos"
+            style="display:block;"
+            id="selectprovincias">
+    
+            <option value="-1">Seleccione Provincia</option>
+            <option value="15" text="A Coruña">A Coruña</option>
+            <option value="27" text="Lugo">Lugo</option>
+            <option value="32" text="Ourense">Ourense</option>
+            <option value="36" text="Pontevedra">Pontevedra</option>
+    
+        </select>  
+    </div>
+    
+
+    <h3>Selecciona el Concello</h3>
+    <div data-dojo-attach-point="concellos" style="display:none">
+        <select 
+            style="display:inline;"
+            data-dojo-attach-point="listaConcellos"
+            data-dojo-attach-event="onChange:cargaParroquias">
+        </select>
+        <button
+            data-dojo-attach-event="onclick:zoomConcello">
+
+            <img src="widgets\TestXuntaGaliciaAGC\images\lupa.png" alt="Lupa de búsqueda" style="height: 32px;">
+
+        </button>
+    </div>
+
+    <h3>Selecciona la Parroquia</h3>
+    <div data-dojo-attach-point="parroquias" style="display:none">
+        <select 
+            style="display:inline;"
+            data-dojo-attach-point="listaParroquias">
+        </select>
+        <button
+            data-dojo-attach-event="onclick:zoomParroquia">
+
+            <img src="widgets\TestXuntaGaliciaAGC\images\lupa.png" alt="Lupa de búsqueda" style="height: 32px;">
+
+        </button>
+    </div>
+
+</div>

@@ -1,0 +1,24 @@
+{
+  "name": "TestXuntaGaliciaAGC",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "2.26",
+  "wabVersion": "2.26",
+  "author": "Álvaro Gutiérrez Climent",
+  "description": "Filtro apra comarcas, concellos y parroquias de Galicia",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+		"inPanel":true,
+		"hasLocale": false,
+		"hasStyle":true,
+		"hasConfig":true,
+		"hasUIFile":true,
+		"hasSettingPage":true,
+		"hasSettingUIFile":true,
+		"hasSettingLocale":false,
+		"hasSettingStyle":true,
+		"IsController":false
+  }
+}

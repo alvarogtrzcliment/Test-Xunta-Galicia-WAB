@@ -1,0 +1,42 @@
+.filtro-parroquias{
+    font-family:Helvetica,sans-serif;
+}
+
+.filtro-parroquias h3{
+    text-align: center;
+    padding: 2%;
+    background-color: rgb(72, 94, 137);
+    margin-top: 0%;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    margin-bottom: 2px;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+
+    
+}
+#selectprovincias{
+    width: 100%;
+    border-color: rgb(89, 89, 145);
+    border-radius: 10px;
+
+}
+.filtro-parroquias div{
+    padding: 3%;
+}
+
+.filtro-parroquias select{
+    padding: 2%;
+    width: 80%;
+    border-color: rgb(89, 89, 145);
+    border-radius: 10px 0 0 10px;
+}
+
+.filtro-parroquias button{
+    background-color: rgb(224, 231, 247);
+    width: 20%;
+    border-radius: 0 10px 10px 0;
+}
+
+#dijit__WidgetBase_7{
+    padding: 0%;
+}

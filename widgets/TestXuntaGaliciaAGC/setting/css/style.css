@@ -1,0 +1,11 @@
+.jimu-widget-demo-setting input{
+  width: 100%;
+  padding: 1%;
+  border-radius: 10px;
+}
+.jimu-widget-demo-setting h3{
+  background-color: rgb(72, 94, 137);
+  padding: 1%;
+  margin-bottom: 1%;
+  color: white;
+}
